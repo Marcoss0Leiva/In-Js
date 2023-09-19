@@ -1,0 +1,493 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #424040;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.logo {
+  color: rgb(13, 13, 14);
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: black;
+  display: block;
+  font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+  color: rgb(211, 212, 102);
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 26px;
+}
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.submenu {
+  position: relative;
+}
+.submenu #carrito {
+  display: none;
+}
+
+.submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  right: 0;
+  backdrop-filter: bluer(10px);
+  top: 100%;
+  z-index: 1;
+  background-color: rgb(30, 32, 32);
+  padding: 20px;
+  min-width: 400px;
+  min-width: 400px;
+}
+
+table {
+  width: 100%;
+  color: white;
+}
+
+td {
+  color: white;
+}
+
+.borrar {
+  background-color: rgb(57, 138, 231);
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+
+.header-content {
+  position: relative;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.header-content h1 {
+  font-size: 70px;
+  color: white;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.header-content p {
+  font-size: 18px;
+  padding: 0 200px;
+  color: rgb(211, 212, 102);
+  margin-bottom: 80px;
+}
+
+.botons {
+  display: flex;
+  justify-content: center;
+}
+.btn-1 {
+  display: inline-block;
+  width: 200px;
+  margin: 0 10px;
+  padding: 13px 0;
+  border-radius: 25px;
+  color: rgb(211, 212, 102);
+  text-transform: uppercase;
+  background-color: black;
+}
+
+.btn-1:hover {
+  background-color: white;
+}
+
+.socials-1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+}
+
+.socials-1 img {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 28px;
+}
+
+.arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 150px;
+}
+
+.Productos {
+  display: flex;
+  padding: 120px 0;
+}
+
+.Productos-1 {
+  width: 50%;
+}
+
+.Productos-1 h3 {
+  font-size: 18px;
+  color: white;
+}
+
+.Productos-1 p {
+  color: rgb(211, 212, 102);
+}
+
+.Productos-1 hr {
+  margin: 18px 0;
+  border: 1px solid black;
+}
+
+.Productos-2 {
+  width: 50%;
+  text-align: center;
+}
+
+.Productos-2 h2 {
+  font-size: 55px;
+  line-height: 55px;
+  color: black;
+}
+
+.termos {
+  padding: 50px 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  padding-bottom: 88px;
+}
+
+.swiper-button-prev::after {
+  font-size: 25px;
+}
+
+.swiper-button-prev {
+  color: rgb(211, 212, 102);
+}
+
+.swiper-button-next {
+  color: rgb(211, 212, 102);
+}
+
+.swiper-pagination-bullet {
+  background-color: white;
+  opacity: 1;
+  top: 50px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgb(211, 212, 102);
+}
+
+.termos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.termos h3 {
+  font-size: 16px;
+  color: rgb(211, 212, 102);
+  margin-bottom: 10px;
+}
+
+.Precio {
+  font-size: 18px;
+  color: white;
+}
+
+.termos img {
+  width: 500px;
+  height: 470px;
+}
+
+.termos p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.966);
+  margin-top: 15px;
+}
+
+.btn-2 {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: black;
+  color: rgb(211, 212, 102);
+  font-size: 14px;
+  margin-top: 25px;
+  border-radius: 25px;
+}
+
+.btn-2:hover {
+  background-color: white;
+}
+
+.btn-3 {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: black;
+  color: rgb(211, 212, 102);
+  font-size: 14px;
+  margin-top: 25px;
+  border-radius: 25px;
+}
+
+.btn-3:hover {
+  background-color: white;
+}
+
+.btn-4 {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: black;
+  color: rgb(211, 212, 102);
+  font-size: 14px;
+  margin-top: 25px;
+  border-radius: 25px;
+}
+
+.btn-4:hover {
+  background-color: white;
+}
+
+/* ... Tus estilos anteriores ... */
+
+/* Footer */
+.footer {
+  background-color: #333333;
+  color: white;
+  padding: 50px 0;
+}
+
+/* Contenedor de enlaces y formularios */
+.links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.link {
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+/* Estilos para los encabezados de sección */
+.link h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Estilos para los enlaces del pie de página */
+.link ul li a {
+  color: rgb(211, 212, 102);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link ul li a:hover {
+  color: rgb(57, 138, 231);
+}
+
+/* Estilos para el formulario */
+.link form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.link input[type="text"],
+.link input[type="email"],
+.link textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #999999;
+  border-radius: 5px;
+}
+
+.link textarea {
+  resize: vertical;
+}
+
+.link .btn-4 {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: black;
+  color: rgb(211, 212, 102);
+  font-size: 14px;
+  margin-top: 25px;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.link .btn-4:hover {
+  background-color: rgb(30, 32, 32);
+}
+
+/* Estilos para las redes sociales */
+.socials-2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.socials-2 img {
+  width: 28px;
+  height: 28px;
+}
+
+@media (max-width: 991px) {
+  .menu {
+    padding: 30px;
+  }
+
+  .menu label {
+    display: initial;
+  }
+
+  .menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #424040;
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .menu .navbar ul li {
+    width: 100%;
+  }
+
+  #menu:checked ~ .navbar {
+    display: initial;
+  }
+
+  .header-content {
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 150px;
+  }
+
+  .header-content h1 {
+    font-size: 40px;
+  }
+
+  .header-content p {
+    padding: 0;
+    margin-bottom: 40px;
+  }
+
+  .botons {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .btn-1 {
+    margin: 0 0 20px 0;
+  }
+
+  .socials-1 {
+    display: none;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .Productos {
+    flex-direction: column;
+    padding: 0px 30px;
+    text-align: center;
+  }
+
+  .Productos-1 {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .Productos-2 {
+    width: 100%;
+  }
+  .footer {
+    padding: 30px;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .link {
+    width: 70%;
+  }
+
+  .link p {
+    margin: 0 0 25px 0;
+  }
+
+  .socials-2 {
+    margin-bottom: 15px;
+  }
+}

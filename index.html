@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo"> cBséUn🧉</a>
+      <div class="menu container">
+        <input type="checkbox" id="menu" />
+        <label for="menu"
+          ><img src="images/menu.png" class="menu-icono" alt="menu"
+        /></label>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Reservaciones</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <ul>
+            <li class="submenu">
+              <img src="images/car.svg" id="img-carrito" alt="" />
+              <div id="carrito">
+                <table id="lista-carrito">
+                  <thead>
+                    <tr>
+                      <th>imagen</th>
+                      <th>Nombre</th>
+                      <th>Precio</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+                <a href="#" id="vacia-carrito" class="btn-2"> Vaciar Carríto</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-content container">
+        <h1>cBseUn🧉</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+          accusamus blanditiis praesentium necessitatibus accusantium dicta
+          perspiciatis quo veniam. A quae corrupti,consequatur esse veniam
+          suscipit beatae autem minima inventore non?
+        </p>
+
+        <div class="botons">
+          <a href="#" class="btn-1"> Mas información</a>
+          <a href="#" class="btn-1"> Menu</a>
+        </div>
+
+        <div class="socials-1">
+          <img src="images/s1.svg" alt="" />
+          <img src="images/s2.svg" alt="" />
+          <img src="images/s3.svg" alt="" />
+        </div>
+
+        <a href="#lista">
+          <img class="arrow" src="images/arrow.svg" alt="" />
+        </a>
+      </div>
+    </header>
+
+    <section class="Productos container">
+      <div class="Productos-1">
+        <h3>
+          "Descubre la Elegancia y Funcionalidad: Nuestra Colección de Termos
+          Premium"
+        </h3>
+        <hr />
+        <p>Termos</p>
+      </div>
+
+      <div class="Productos-2">
+        <h2>
+          "Descubre la Elegancia y Funcionalidad"<br />
+          Nuestra Colección de Termos Premium"
+        </h2>
+        <hr />
+        <p>Termos</p>
+      </div>
+    </section>
+
+    <section class="Termos container" id="lista">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="termos">
+              <h3>Termo Stanley Mate-System 940ml</h3>
+              <p class="Precio">55.600</p>
+              <img
+                src="images/Articulo 253 (termo original 940ml)(2).jpg"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                dolore sequi, officia officiis eaque iste veniam quas ea quasi
+                blanditiis iusto esse hic. Sapiente, ratione iure nihil hic
+                molestias qui!
+              </p>
+              <a href="#" class="agregar-carrito btn-2" data-id="1">
+                Agregar al carrito</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="termos">
+              <h3>Termo Stanley Mate-System 940ml</h3>
+              <p class="Precio">55.600</p>
+              <img
+                src="images/Articulo 253 (termo original 940ml)(3).jpg"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                dolore sequi, officia officiis eaque iste veniam quas ea quasi
+                blanditiis iusto esse hic. Sapiente, ratione iure nihil hic
+                molestias qui!
+              </p>
+              <a href="#" class="agregar-carrito btn-2" data-id="2">
+                Agregar al carrito</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="termos">
+              <h3>Termo Stanley Mate-System 940ml</h3>
+              <p class="Precio">55.600</p>
+              <img
+                src="images/Articulo 253 (termo original 940ml)(4).jpg"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                dolore sequi, officia officiis eaque iste veniam quas ea quasi
+                blanditiis iusto esse hic. Sapiente, ratione iure nihil hic
+                molestias qui!
+              </p>
+              <a href="#" class="agregar-carrito btn-2" data-id="3">
+                Agregar al carrito</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="Productos container">
+      <div class="Productos-2">
+        <h2>
+          "EcoEstilo en Cada Sorbo <br />
+          Explora Nuestros Vasos Sostenibles""
+        </h2>
+        <hr />
+        <p>Vasos</p>
+      </div>
+
+      <div class="Productos-1">
+        <h3><br />Tu Compañero Perfecto para la Hidratación"</h3>
+        <hr />
+        <p>Vasos</p>
+      </div>
+    </section>
+
+    <section class="Termos container" id="lista-2">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="termos">
+              <h3>Vaso Stanley Chopero Blanco</h3>
+              <p class="Precio">26.600</p>
+              <img src="images/vaso-1.jpg" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                dolore sequi, officia officiis eaque iste veniam quas ea quasi
+                blanditiis iusto esse hic. Sapiente, ratione iure nihil hic
+                molestias qui!
+              </p>
+              <a href="#" class="agregar-carrito btn-3" data-id="4">
+                Agregar al carrito</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="termos">
+              <h3>Vaso Stanley Chopero Celeste</h3>
+              <p class="Precio">26.600</p>
+              <img src="images/vaso-2.jpg" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                dolore sequi, officia officiis eaque iste veniam quas ea quasi
+                blanditiis iusto esse hic. Sapiente, ratione iure nihil hic
+                molestias qui!
+              </p>
+              <a href="#" class="agregar-carrito btn-3" data-id="5">
+                Agregar al carrito</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="termos">
+              <h3>Vaso Stanley Chopero Verde</h3>
+              <p class="Precio">26.600</p>
+              <img src="images/vaso-3.jpg" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                dolore sequi, officia officiis eaque iste veniam quas ea quasi
+                blanditiis iusto esse hic. Sapiente, ratione iure nihil hic
+                molestias qui!
+              </p>
+              <a href="#" class="agregar-carrito btn-3" data-id="6">
+                Agregar al carrito</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="Productos container">
+      <div class="Productos-1">
+        <h3>
+          Refleja tu Personalidad: <br />Termeras que Hablan de Quién Eres"
+        </h3>
+        <hr />
+        <p>Termeras</p>
+      </div>
+
+      <div class="Productos-2">
+        <h2><br />Elige la Termera que Te Define</h2>
+        <hr />
+        <p>Termos</p>
+      </div>
+    </section>
+
+    <section class="Termos container" id="lista">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="termos">
+              <h3>Bolso Matero Rosa</h3>
+              <p class="Precio">55.600</p>
+              <img src="images/bolso rosa.jpg" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                dolore sequi, officia officiis eaque iste veniam quas ea quasi
+                blanditiis iusto esse hic. Sapiente, ratione iure nihil hic
+                molestias qui!
+              </p>
+              <a href="#" class="agregar-carrito btn-2" data-id="7">
+                Agregar al carrito</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="termos">
+              <h3>Bolso Matero Violeta</h3>
+              <p class="Precio">55.600</p>
+              <img src="images/bolso.jpg" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                dolore sequi, officia officiis eaque iste veniam quas ea quasi
+                blanditiis iusto esse hic. Sapiente, ratione iure nihil hic
+                molestias qui!
+              </p>
+              <a href="#" class="agregar-carrito btn-2" data-id="8">
+                Agregar al carrito</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="termos">
+              <h3>Bolso Matero Blanco</h3>
+              <p class="Precio">55.600</p>
+              <img src="images/bolso blanco.jpg" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                dolore sequi, officia officiis eaque iste veniam quas ea quasi
+                blanditiis iusto esse hic. Sapiente, ratione iure nihil hic
+                molestias qui!
+              </p>
+              <a href="#" class="agregar-carrito btn-4" data-id="9">
+                Agregar al carrito</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="Productos container">
+      <hr />
+      <p>Contacto</p>
+    </section>
+
+    <footer class="footer container">
+      <div class="links">
+        <div class="link">
+          <h3>Redes</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            numquam earum
+          </p>
+          <div class="socials-2">
+            <img src="images/s1.svg" alt="" />
+            <img src="images/s2.svg" alt="" />
+            <img src="images/s3.svg " alt="" />
+          </div>
+        </div>
+        <div class="link">
+          <h3>lorem</h3>
+          <ul>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+          </ul>
+        </div>
+        <div class="link">
+          <h3>lorem</h3>
+          <ul>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+          </ul>
+        </div>
+
+        <div class="link">
+          <h3>lorem</h3>
+          <form>
+            <input type="text" placeholder="Nombre" class="inp" />
+            <input type="email" placeholder="Email" class="inp" />
+            <textarea class="inp"></textarea>
+            <input class="btn-4" type="submit" value="Enviar" />
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
